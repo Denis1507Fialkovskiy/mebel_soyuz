@@ -37,7 +37,7 @@ body {
    font-style: normal;
    font-size: 1.5em;
    line-height: 30px;
-   color: #fff; 
+   color: #fafafa; 
 }
 .transition p {
    overflow: hidden !important;
@@ -1113,6 +1113,10 @@ display: none;
 @media (max-width: 479px) {
 	#form-language .btn,
 	#form-currency .btn {}
+	#button {   
+	   bottom: 40px;   
+	   right: -10px;
+	} 
 }
 
 
