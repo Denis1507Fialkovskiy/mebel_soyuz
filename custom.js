@@ -659,6 +659,21 @@ $(document).ready(function () {
 		});
 	});
 });
+/*For Button link to Video_chat room*/
+jQuery(document).ready(function() {
+  var btn = $('#button');  
+  $(window).scroll(function() {     
+    if ($(window).scrollTop() > 75) {
+       btn.addClass('show');
+     } else {
+       btn.removeClass('show');
+     }
+   });
+   btn.on('click', function(e) {
+     e.preventDefault();
+     window.location.href='https://linkchat.io/room-2020-10-02-083141477';
+   });
+});
 
 /*  For more menu */
 
